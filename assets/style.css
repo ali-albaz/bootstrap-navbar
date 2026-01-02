@@ -1,0 +1,52 @@
+:root{
+    /* Fonts */
+
+    --header-font: "Lavishly Yours", cursive;
+    --secendary-font : "Poppins", sans-serif;
+
+    /* Colors */
+
+    --main-color: #222831;
+    --secendary-color : #393E46;
+    --third-color : #948979;
+    --forth-color : #DFD0B8;
+}
+
+.navbar{
+    background-color: var(--secendary-color);
+}
+
+.navbar-light .navbar-brand{
+    color: var(--forth-color);
+    pointer-events: none;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: var(--third-color);
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: var(--forth-color);
+}
+
+.btn-color{
+    color: var(--forth-color);
+    border-color: var(--forth-color);
+}
+.btn-color:hover{
+    color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+
+.h__font{
+    font-family: var(--header-font);
+}
+
+.secendary__font{
+    font-family: var(--secendary-font);
+}
+
+*{
+    font-family: var(--secendary-font);
+}
